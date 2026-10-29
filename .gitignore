@@ -1,0 +1,23 @@
+# Personal data must never be committed.
+*.json
+*.csv
+*.xlsx
+*.sqlite*
+*.db
+*.zip
+*备份*
+backups/
+data/
+uploads/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+node_modules/
+.wrangler/
+.build/
+*.app/
+.codex/
+.agents/
